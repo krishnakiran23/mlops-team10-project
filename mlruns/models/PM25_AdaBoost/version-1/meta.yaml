@@ -1,0 +1,15 @@
+creation_timestamp: 1765399942459
+current_stage: None
+deployment_job_state: null
+description: null
+last_updated_timestamp: 1765399942459
+model_id: m-ed3b59634863411e9f93d28d4587c305
+name: PM25_AdaBoost
+run_id: 8fe5bf4edbb24e3f83149d03d7dd5fb7
+run_link: null
+source: models:/m-ed3b59634863411e9f93d28d4587c305
+status: READY
+status_message: null
+storage_location: file:///Users/krishnakiransristi/Desktop/MLOps_Team10/mlruns/883317573335820192/models/m-ed3b59634863411e9f93d28d4587c305/artifacts
+user_id: null
+version: 1

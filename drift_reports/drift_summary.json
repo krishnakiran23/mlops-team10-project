@@ -1,0 +1,87 @@
+{
+  "timestamp": "2025-12-10T15:56:56.848654",
+  "data_drift": {
+    "features_with_drift": 5,
+    "total_features": 7,
+    "drift_percentage": 71.42857142857143,
+    "details": {
+      "DEWP": {
+        "ks_statistic": 0.08723178656613839,
+        "ks_pvalue": 4.114214141570573e-45,
+        "drift_detected": true,
+        "ref_mean": 0.5884365378036264,
+        "curr_mean": 2.1890964240102173,
+        "mean_change_pct": 272.01911903382944
+      },
+      "TEMP": {
+        "ks_statistic": 0.11174134086072107,
+        "ks_pvalue": 8.019229906385146e-74,
+        "drift_detected": true,
+        "ref_mean": 10.749914471433458,
+        "curr_mean": 13.778575989783125,
+        "mean_change_pct": 28.173819674546742
+      },
+      "PRES": {
+        "ks_statistic": 0.03833170796287344,
+        "ks_pvalue": 4.763388743348676e-09,
+        "drift_detected": true,
+        "ref_mean": 1016.9981867943893,
+        "curr_mean": 1016.6536558109834,
+        "mean_change_pct": -0.03387724657522366
+      },
+      "Iws": {
+        "ks_statistic": 0.056079398910040545,
+        "ks_pvalue": 6.997551805877271e-19,
+        "drift_detected": true,
+        "ref_mean": 22.802196373588778,
+        "curr_mean": 20.461857439335887,
+        "mean_change_pct": -10.263655728198394
+      },
+      "Is": {
+        "ks_statistic": 0.010594340521228318,
+        "ks_pvalue": 0.4322676874148804,
+        "drift_detected": false,
+        "ref_mean": 0.06917550461854259,
+        "curr_mean": 0.023706896551724137,
+        "mean_change_pct": -65.7293478631604
+      },
+      "Ir": {
+        "ks_statistic": 0.00929564986199638,
+        "ks_pvalue": 0.6011330654662916,
+        "drift_detected": false,
+        "ref_mean": 0.22634279849469724,
+        "curr_mean": 0.12611749680715198,
+        "mean_change_pct": -44.28031391062497
+      },
+      "pm2.5": {
+        "ks_statistic": 0.04183666971205158,
+        "ks_pvalue": 1.0698682223864442e-10,
+        "drift_detected": true,
+        "ref_mean": 100.26089633937735,
+        "curr_mean": 94.78839399744572,
+        "mean_change_pct": -5.4582619363460765
+      }
+    }
+  },
+  "performance_drift": {
+    "reference": {
+      "rmse": 73.2347890593584,
+      "mae": 50.59629180732866,
+      "r2": 0.38943592098808155
+    },
+    "current": {
+      "rmse": 66.19298441934396,
+      "mae": 46.595128156142415,
+      "r2": 0.4653800899895363
+    },
+    "change_pct": {
+      "rmse": -9.615381884020872,
+      "mae": -7.908017580463662,
+      "r2": 19.501069343775033
+    }
+  },
+  "recommendations": [
+    "\u26a0 Significant data drift detected - monitor model performance closely",
+    "\u2713 Model performance improved on recent data"
+  ]
+}

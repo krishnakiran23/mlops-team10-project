@@ -1,0 +1,15 @@
+creation_timestamp: 1765399869239
+current_stage: None
+deployment_job_state: null
+description: null
+last_updated_timestamp: 1765399869239
+model_id: m-06112e28186b4cb9aeb828d9ba6280cf
+name: PM25_GBM
+run_id: ac40c7da714347cdb8ff7ba123943478
+run_link: null
+source: models:/m-06112e28186b4cb9aeb828d9ba6280cf
+status: READY
+status_message: null
+storage_location: file:///Users/krishnakiransristi/Desktop/MLOps_Team10/mlruns/883317573335820192/models/m-06112e28186b4cb9aeb828d9ba6280cf/artifacts
+user_id: null
+version: 1

@@ -1,0 +1,42 @@
+{
+  "timestamp": "2025-12-10T17:55:22.911318",
+  "tool_used": "Evidently",
+  "evidently_version": "0.2.8",
+  "data_periods": {
+    "reference": {
+      "start": "2011-10-29 21:00:00",
+      "end": "2013-07-21 22:00:00",
+      "rows": 14615
+    },
+    "current": {
+      "start": "2013-07-21 23:00:00",
+      "end": "2014-12-31 23:00:00",
+      "rows": 12528
+    }
+  },
+  "performance_metrics": {
+    "reference": {
+      "rmse": 73.2347890593584,
+      "mae": 50.59629180732866,
+      "r2": 0.38943592098808155
+    },
+    "current": {
+      "rmse": 66.19298441934396,
+      "mae": 46.595128156142415,
+      "r2": 0.4653800899895363
+    },
+    "change_pct": {
+      "rmse": -9.615381884020872,
+      "mae": -7.908017580463662,
+      "r2": 19.501069343775033
+    }
+  },
+  "reports_generated": {
+    "data_drift_dashboard": "drift_reports/evidently_data_drift_dashboard.html",
+    "regression_performance_dashboard": "drift_reports/evidently_regression_performance_dashboard.html",
+    "note": "JSON profiles skipped due to pydantic compatibility issues"
+  },
+  "recommendations": [
+    "\u2713 Model performance improved on recent data"
+  ]
+}

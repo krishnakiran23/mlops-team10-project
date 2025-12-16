@@ -1,0 +1,15 @@
+creation_timestamp: 1765399884252
+current_stage: None
+deployment_job_state: null
+description: null
+last_updated_timestamp: 1765399884252
+model_id: m-25b6d34f73794bad8762ead10808e6ea
+name: PM25_RandomForest
+run_id: 7d6f0718fb404ca0a2a30e2be138aa78
+run_link: null
+source: models:/m-25b6d34f73794bad8762ead10808e6ea
+status: READY
+status_message: null
+storage_location: file:///Users/krishnakiransristi/Desktop/MLOps_Team10/mlruns/883317573335820192/models/m-25b6d34f73794bad8762ead10808e6ea/artifacts
+user_id: null
+version: 1

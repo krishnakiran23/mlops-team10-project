@@ -1,0 +1,6 @@
+artifact_location: file:///Users/krishnakiransristi/Desktop/MLOps_Team10/mlruns/883317573335820192
+creation_time: 1765399867253
+experiment_id: '883317573335820192'
+last_update_time: 1765399867253
+lifecycle_stage: active
+name: prsa_pm25_prediction

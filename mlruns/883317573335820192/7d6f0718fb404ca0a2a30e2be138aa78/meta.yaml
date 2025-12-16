@@ -1,0 +1,14 @@
+artifact_uri: file:///Users/krishnakiransristi/Desktop/MLOps_Team10/mlruns/883317573335820192/7d6f0718fb404ca0a2a30e2be138aa78/artifacts
+end_time: 1765399884262
+entry_point_name: ''
+experiment_id: '883317573335820192'
+lifecycle_stage: active
+run_id: 7d6f0718fb404ca0a2a30e2be138aa78
+run_name: RandomForest_Model
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1765399882822
+status: 3
+tags: []
+user_id: krishnakiransristi

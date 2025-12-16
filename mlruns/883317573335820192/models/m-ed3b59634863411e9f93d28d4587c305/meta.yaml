@@ -1,0 +1,10 @@
+artifact_location: file:///Users/krishnakiransristi/Desktop/MLOps_Team10/mlruns/883317573335820192/models/m-ed3b59634863411e9f93d28d4587c305/artifacts
+creation_timestamp: 1765399941048
+experiment_id: '883317573335820192'
+last_updated_timestamp: 1765399942453
+model_id: m-ed3b59634863411e9f93d28d4587c305
+model_type: null
+name: model
+source_run_id: 8fe5bf4edbb24e3f83149d03d7dd5fb7
+status: 2
+status_message: null
