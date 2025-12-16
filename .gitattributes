@@ -1,1 +1,4 @@
 drift_reports/*.html linguist-vendored
+drift_reports/*.html linguist-generated=true
+drift_reports/*.json linguist-generated=true
+*.html linguist-language=Text
