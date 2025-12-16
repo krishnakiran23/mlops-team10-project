@@ -201,9 +201,9 @@ uv run python src/drift_analysis.py
 
 | Model | Test RMSE | Test MAE | Test R² | Status |
 |-------|-----------|----------|---------|--------|
-| **GBM** | **66.19** | **46.60** | **0.465** | ✅ **Champion** |
-| Random Forest | 68.60 | 49.21 | 0.426 | ✅ Production |
-| AdaBoost | 85.81 | 70.47 | 0.102 | ⚠️ Baseline |
+| **GBM** | **66.19** | **46.60** | **0.465** | 🏆 **Champion (Production)** |
+| Random Forest | 68.60 | 49.21 | 0.426 | 🥈 Runner-up (Staging) |
+| AdaBoost | 85.81 | 70.47 | 0.102 | 🥉 Baseline (Archived) |
 
 ### Champion Model: Gradient Boosting Machine (GBM)
 
